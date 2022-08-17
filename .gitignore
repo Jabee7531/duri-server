@@ -1,0 +1,6 @@
+.env
+Docker_CD.sh
+*.log
+*.pot
+*.pyc
+__pycache__/
