@@ -29,17 +29,13 @@ JWT_SECRET = os.environ.get("JWT_SECRET")
 JWT_ALGORITHMS = os.environ.get("JWT_ALGORITHMS")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True if os.environ.get("DEV") == "1" else False
+DEBUG = True if os.environ.get("IS_DEV") == "1" else False
 
-ALLOWED_HOSTS = (
-    ["*"]
-    if os.environ.get("DEV") == "1"
-    else os.environ.get("ALLOWED_HOSTS").split(",")
-)
+ALLOWED_HOSTS = [ os.environ.get("ALLOWED_HOSTS")]
 
 CORS_ALLOWED_ORIGINS = (
     ["http://localhost:3000", "http://127.0.0.1:3001"]
-    if os.environ.get("DEV") == "1"
+    if os.environ.get("IS_DEV") == "1"
     else os.environ.get("CORS_ALLOWED_ORIGINS").split(",")
 )
 
@@ -66,6 +62,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

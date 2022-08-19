@@ -8,7 +8,7 @@ RUN mkdir /srv/log/nginx
 RUN mkdir /srv/log/uwsgi
 RUN mkdir /sock
 
-ADD ./dori_server/. /srv/dori_server
+ADD ./. /srv/dori_server
 
 WORKDIR /srv/dori_server
 
