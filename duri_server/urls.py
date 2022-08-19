@@ -1,4 +1,4 @@
-"""dori_server URL Configuration
+"""duri_server URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -22,7 +22,7 @@ from rest_framework import permissions
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="dori-server-swageer",
+        title="duri-server-swageer",
         default_version="v1",
         description="두리 서버 스웨거",
         terms_of_service="https://www.google.com/policies/terms/",

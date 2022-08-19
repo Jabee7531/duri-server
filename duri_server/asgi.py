@@ -1,5 +1,5 @@
 """
-ASGI config for dori_server project.
+ASGI config for duri_server project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dori_server.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'duri_server.settings')
 
 application = get_asgi_application()
