@@ -221,10 +221,10 @@ class UserSignIn(APIView):
                 user_jwt,
                 path="/",
                 httponly=True,
+                samesite="none",
                 secure=True,
                 max_age=60 * 60 * 24 * 15,
             )
-            print(user_jwt)
 
             return response
         except:
@@ -372,6 +372,7 @@ class UserSignUp(APIView):
                 user_jwt,
                 path="/",
                 httponly=True,
+                samesite="none",
                 secure=True,
                 max_age=60 * 60 * 24 * 15,
             )
