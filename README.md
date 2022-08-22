@@ -3,7 +3,8 @@
 </div>
 
 <div align="center">
-  귀여운 두리의 겔러리
+  <h3>Duri Gallery</h3>
+  <h3>귀여운 두리의 갤러리</h3>
 </div>
 <div align="center">
     <a href="https://duri.vercel.app/">https://duri.vercel.app
@@ -17,6 +18,26 @@
 <img src="https://img.shields.io/badge/MySQL-4479A1?logo=MySQL&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=Swagger&logoColor=white"/>
 </div>
+
+
+# Description
+
+This is Gallery of cute Duri.
+
+You can create a message board and share pictures of cute puppies.
+
+Share pictures of cute puppies, comment and communicate!
+
+<br/>
+
+
+# License
+
+MIT License
+
+<br/>
+<br/>
+
 
 # 요약
 
