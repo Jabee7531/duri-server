@@ -6,7 +6,7 @@
   귀여운 두리의 겔러리
 </div>
 <div align="center">
-    <a href="https://dori.vercel.app/">https://dori.vercel.app
+    <a href="https://duri.vercel.app/">https://duri.vercel.app
     </a>
 </div>
 </br>
