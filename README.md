@@ -42,6 +42,12 @@ Share pictures of cute puppies, comment and communicate!
 
 <br/>
 
+# ERD
+
+<img src="./img/duri-ERD.png"/>
+
+<br/>
+
 # License
 
 MIT License
@@ -59,7 +65,6 @@ MIT License
 
 </br>
 
-
 # 프로젝트 & CI/CD 아키텍처
 
 <img src="./img/duri-architecture.png"/>
@@ -70,6 +75,12 @@ MIT License
 
 <img src="./img/duri-swagger1.png"/>
 <img src="./img/duri-swagger2.png"/>
+
+<br/>
+
+# ERD
+
+<img src="./img/duri-ERD.png"/>
 
 <br/>
 
