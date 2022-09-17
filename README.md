@@ -19,7 +19,6 @@
 <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=Swagger&logoColor=white"/>
 </div>
 
-
 # Description
 
 This is Gallery of cute Duri.
@@ -30,6 +29,18 @@ Share pictures of cute puppies, comment and communicate!
 
 <br/>
 
+# Project & CI/CD architecture
+
+<img src="./img/duri-architecture.png"/>
+
+<br/>
+
+# API
+
+<img src="./img/duri-swagger1.png"/>
+<img src="./img/duri-swagger2.png"/>
+
+<br/>
 
 # License
 
@@ -37,7 +48,6 @@ MIT License
 
 <br/>
 <br/>
-
 
 # 요약
 
