@@ -35,7 +35,7 @@ Share pictures of cute puppies, comment and communicate!
 
 <br/>
 
-# API
+# API List
 
 <img src="./img/duri-swagger1.png"/>
 <img src="./img/duri-swagger2.png"/>
@@ -58,6 +58,20 @@ MIT License
 귀여운 강아지 사진을 공유하고 댓글을 달아 소통해 보세요 !
 
 </br>
+
+
+# 프로젝트 & CI/CD 아키텍처
+
+<img src="./img/duri-architecture.png"/>
+
+<br/>
+
+# API 목록
+
+<img src="./img/duri-swagger1.png"/>
+<img src="./img/duri-swagger2.png"/>
+
+<br/>
 
 # 라이센스
 
